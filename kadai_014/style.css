@@ -1,0 +1,41 @@
+/* bodyのフォントの種類をArial,Meiryo,sans-serifにする */
+body {
+  font-family: "Arial", "Meiryo", sans-serif;
+}
+
+/* h1のフォントはJosefin Sansを使用する。総称フォントはsans  */
+.decoration {
+  font-family: 'josefin Sans',sans-serif;   
+}
+/* ルートフォントサイズ20px、h1はその2倍にする */
+html {
+  font-size: 20px;
+}
+h1 {
+  font-size: 2rem;
+}
+/* M、生年月日、趣味、bプログラミング〜はスカイブルー、P、名前、血液型、好きな食べ物はピンクにする */
+.text-skyblue {
+  color: skyblue;
+}
+
+.text-pink {
+  color: rgb(255, 192, 203);
+}
+
+/*  テキストは全て中央寄せ*/
+h1,h2,p {
+  text-align: center;
+}
+
+/* h1の文字間を文字の大きさに応じて1.2倍にする、影をつける、下に実線をつける */
+.decoration {
+  letter-spacing: 1.2em;
+  text-shadow: 1px 1px 2px gray;
+  border-bottom: solid 3px rgb(115, 115, 114);
+}
+
+/* 侍　太郎、1990年1月1日、O型を太字にする */
+  #basic p {
+    font-weight: bold;
+  }
